@@ -6,7 +6,7 @@ const About = () => {
             <h2 id='about' className='text-6xl text-center'>Know <span className='text-[#ed5a00]'>About</span> Me</h2>
             <div className='divider'>.......</div>
             <div className='lg:flex mt-10'>
-                <div className='lg:w-[50%] pr-6 lg:border-r-4 border-b-8 pb-6 mb-6'>
+                <div className='lg:w-[50%] pr-6 lg:border-r-4 border-b-8 pb-6 mb-6 pl-6'>
                     <p><span className="text-[#152960]">Name: </span> <span className='text-[#ed5a00]'>Rafi Ul Islam Chowdhury rafi</span></p><br />
                     <p><span className="text-[#152960]"></span>Age: <span className='text-[#ed5a00]'>Real age almost 20</span></p><br />
                     <p><span className="text-[#152960]"></span>Post: <span className='text-[#ed5a00]'>Empty</span></p><br />

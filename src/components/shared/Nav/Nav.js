@@ -14,7 +14,6 @@ const Nav = () => {
                         <li><a href='home#skills'>Skills</a></li>
                         <li><a href='home#myProjects'>My Projects</a></li>
                         <li><a href='home#contact'>Contact</a></li>
-                        <li><a>Item 3</a></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost normal-case text-xl">RAFI UL ISLAM CHY</a>
@@ -26,11 +25,10 @@ const Nav = () => {
                     <li><a href='home#skills'>Skills</a></li>
                     <li><a href='home#myProjects'>My Projects</a></li>
                     <li><a href='home#contact'>Contact</a></li>
-                    <li><a>Item 3</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Get started</a>
+                <a href='home#contact' class="btn">Get started</a>
             </div>
         </div>
     );

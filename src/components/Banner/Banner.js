@@ -6,8 +6,8 @@ const Banner = () => {
     // max-w-sm
     return (
         <div class="hero min-h-screen bg-white">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={banner} class="w-[500px] rounded-lg shadow-2xl ml-16" />
+            <div class="hero-content flex-col lg:flex-row-reverse ml-2">
+                <img src={banner} class="lg:w-[500px] rounded-lg shadow-2xl lg:ml-16" />
                 <div className='pr-[-400px]'>
                     <h1 class="text-5xl font-bold"><span className='text-[#ed5a00]'>Hi There.</span></h1>
                     <h1 class="text-3xl font-bold">I'm <span className='text-[#ed5a00]'>Rafi Ul Islam Chowdhury From Chattogram, Bangladesh</span></h1>
