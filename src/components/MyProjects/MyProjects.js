@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MyProjects = () => {
     return (
@@ -16,7 +17,7 @@ const MyProjects = () => {
                         <p>A site of various type of tools</p>
                         <div className="flex card-actions justify-between">
                             <div class="card-actions justify-start mt-4">
-                                <button class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</button>
+                                <Link to='/project1' class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</Link>
                             </div>
                             <div class="card-actions justify-end mt-4">
                                 <button class="badge badge-outline hover:bg-slate-600 hover:text-white"><a href="https://assignment-tweleve.web.app/">Live Site</a></button>
@@ -37,7 +38,8 @@ const MyProjects = () => {
                         <p>A stock site of various type of saplings</p>
                         <div className="flex card-actions justify-between">
                             <div class="card-actions justify-start mt-4">
-                                <button class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</button>
+                                {/* <button class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</button> */}
+                                <Link to='/project2' class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</Link>
                             </div>
                             <div class="card-actions justify-end mt-4">
                                 <button class="badge badge-outline hover:bg-slate-600 hover:text-white"><a href="https://assignmenteleven-64d09.web.app/">Live Site</a></button>
@@ -57,7 +59,8 @@ const MyProjects = () => {
                         <p>A site of various type of mental services</p>
                         <div className="flex card-actions justify-between">
                             <div class="card-actions justify-start mt-4">
-                                <button class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</button>
+                                {/* <button class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</button> */}
+                                <Link to='/project3' class="badge badge-outline hover:bg-slate-600 hover:text-white">Details</Link>
                             </div>
                             <div class="card-actions justify-end mt-4">
                                 <button class="badge badge-outline hover:bg-slate-600 hover:text-white"><a href="https://amazing-frangollo-697e34.netlify.app/">Live Site</a></button>

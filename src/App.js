@@ -8,6 +8,9 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import MyProjects from './components/MyProjects/MyProjects';
 import Contact from './components/Contact/Contact';
+import Project1 from './components/ProjectsDetail/Project1/Project1';
+import Project2 from './components/ProjectsDetail/Project2/Project2';
+import Project3 from './components/ProjectsDetail/Project3/Project3';
 
 function App() {
   return (
@@ -16,15 +19,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/project1' element={<Project1></Project1>}></Route>
+        <Route path='/project2' element={<Project2></Project2>}></Route>
+        <Route path='/project3' element={<Project3></Project3>}></Route>
       </Routes>
-      {/* <Routes>
-        <Route path='/' element={<Banner></Banner>}></Route>
-        <Route path='/banner' element={<Banner></Banner>}></Route>
-        <Route path='/banner#about' element={<About></About>}></Route>
-        <Route path='/banner#skills' element={<Skills></Skills>}></Route>
-        <Route path='/banner#myProjects' element={<MyProjects></MyProjects>}></Route>
-        <Route path='/banner#contact' element={<Contact></Contact>}></Route>
-      </Routes> */}
     </div>
   );
 }
